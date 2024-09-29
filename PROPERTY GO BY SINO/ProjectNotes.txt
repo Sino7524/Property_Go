@@ -1,0 +1,188 @@
+*PROPERTY GO HELP PAGE
+
+Welcome to Property Go's help page 
+
+*Content:
+
+{For Clients}
+
+1. How To Create A Client Account
+2. "The username box isn't accessible, how can I fix this"
+3. "I forgot my password. What should I do?"
+4. How to create an appointment
+5. Meaning of "Realtor does not exist error"
+6. What is property data and how to purchase it? 
+7. Admin contacts 
+8. How to save my card details?
+
+{For Realtors}
+
+9. How To Create A Realtor Account
+10. "The username box isn't accessible, how can I fix this?"
+11. "I forgot my password. What should I do?"
+12. How to retrieve your account if you was wrongfully reported 3 times
+
+13. Property Go's Terms and conditions
+
+==========================================================================
+
+*1. How To Create A Client Account 
+
+When you open the application, the first screen you will see is the Sign In screen. Regardless of whether you are an existing user or not, you will notice the text: "Not a User? Sign Up." If you do not have an account, you can click on the "Sign Up" link, highlighted in purple. This will direct you to the Sign Up screen, where you can enter the required information to create your account. Select the "Client" option on the User Type combo box to create a Client account.  
+
+*2 "The username box isn't accessible, how can I fix this?"
+The username field is not accessible during account creation, as the application will automatically generate a unique username for you. Once your account is created, you will be directed to the Sign In screen, where your username will be automatically populated in the "Username" field. You will then be prompted to enter the password you created in order to sign in.   
+
+*3 "I forgot my password. What should I do?"
+If you have forgotten your password, you will need to contact the administrators for assistance in creating a new one.
+
+*4 How To Create An Appointment
+To create an appointment, click on the calendar icon (featuring a plus sign) located next to the property image on the left side of the property view screen. This action will take you to the appointment scheduler screen, where a unique appointment ID will be automatically generated for your future appointment, and the property ID will be displayed in the "Property ID" field. You will then need to select a realtor to manage the appointment and choose a suitable appointment date. Once all required fields are completed, an email containing the appointment details will be sent to you.
+
+*5 Meaning of "Realtor does not exist error"
+The "Realtor Does Not Exist" error indicates that the realtor you have selected is either no longer employed with the company or has retired.
+
+*6. What is property data and how to purchase it?
+Property data refers to information that describes and defines real estate properties, encompassing a range of attributes that provide details about the property in question. This data typically includes the following key elements:
+
+This data typically includes:
+
+Current Market Price: The price at which the property is currently listed for sale or rent. This figure is usually determined by factors such as location, property type, and market conditions.
+
+Price History: A record of past prices at which the property has been sold or rented. This history can help users understand how the property's value has changed over time, reflecting trends in the local real estate market.
+
+Comparative Market Analysis (CMA): A detailed comparison of the property’s price with similar properties in the area. This analysis helps in assessing whether the property is priced competitively and gives insights into market trends.
+
+Valuation Estimates: An estimated market value of the property based on various data points such as recent sales of similar properties, current market conditions, and the property's specific features. These estimates can help buyers and investors gauge whether a property is priced appropriately.
+
+Pricing Trends: Information about broader market trends that affect property prices, such as economic indicators, interest rates, and local developments. This might include price increases or decreases over a certain period, indicating the health of the real estate market.
+
+Rental Yields: For investment properties, this data includes the potential or actual rental income relative to the property's purchase price, expressed as a percentage. This is crucial for investors looking to assess the profitability of a property.
+
+Cost of Ownership: Beyond the purchase price, this includes ongoing costs such as property taxes, maintenance fees, and insurance. These costs are important for buyers to understand the total financial commitment required.
+
+Discounts and Negotiations: Information on any price reductions, discounts, or ongoing negotiations can also be part of the property data, helping potential buyers understand how flexible the pricing might be.
+
+Loan and Financing Data: Details on available mortgage options, interest rates, and other financing terms that can affect the overall cost of purchasing the property. This also includes data on how financing might influence the final price paid by the buyer.
+
+When you click the green button labelled "Purchase," you will be directed to a secure payment screen where you will be required to enter your card information exactly as it appears on your card. Please ensure all details are accurate to avoid any issues with the transaction. Upon successful payment, you will immediately gain access to the comprehensive data for the selected property. For your security, all payment information is encrypted and processed in accordance with industry standards.
+
+
+*7 Admin Contact Details
+
+Name: Jonathan Smith
+Title: Senior System Administrator
+Email: jonathan.smith@propertygo.com
+Phone: 031 123 4567
+Office Address:
+1234 Elm Street, Suite 567
+Tech City, TC 78901
+South Africa
+
+Business Hours:
+Monday to Friday: 9:00 AM - 6:00 PM (CAT)
+Saturday: 10:00 AM - 2:00 PM (CAT)
+Sunday: Closed
+
+Support Portal: support.propertygo.com
+Fax: +1 (555) 987-6543
+
+For urgent matters outside of business hours, please use our emergency support line at 031 765 4321.
+
+*8. How To Save My Card Details?
+When you click the green button labelled "Purchase," you will be directed to a payment screen where you will be required to enter your card information exactly as it appears on your card. Upon successful payment, a Message, asking you if you want to save your card details, will appear. If you click on "Yes", your card details will be 
+saved. For your security, all payment information is encrypted and processed in accordance with industry standards.
+ 
+*9. How To Create A Realtor Account
+When you open the application, the first screen you will see is the Sign In screen. Regardless of whether you are an existing user or not, you will notice the text: "Not a User? Sign Up." If you do not have an account, you can click on the "Sign Up" link, highlighted in purple. This will direct you to the Sign Up screen, where you can enter the required information to create your account. Select the "Realtor" option on the User Type combo box to create a Client account. A message dialogue instructing you to enter the company's pass will appear, to ensure that you are really a realtor. Warning Property Go's company pass is confidential. Any unauthorized disclosure of this information to others will result in legal action. Administrators regularly monitor realtor accounts, and any individual found to be posing as a realtor without proper authorization from Property Go may be subject to fines.
+
+*10 "The username box isn't accessible, how can I fix this?"
+The username field is not accessible during account creation, as the application will automatically generate a unique username for you. Once your account is created, you will be directed to the Sign In screen, where your username will be automatically populated in the "Username" field. You will then be prompted to enter the password you created in order to sign in.
+
+*11 "I forgot my password. What should I do?"
+If you have forgotten your password, you will need to contact the administrators for assistance in creating a new one.
+
+*12. How to retrieve your account if you were wrongfully reported 3 times
+If you are wrongfully reported three times, you will need to contact an administrator for assistance in recovering your account. Please provide any relevant details to expedite the review process. The administrator will investigate the reports and take appropriate action to restore your access if the reports are found to be unjustified.
+
+*13 Property Go's Terms and Conditions
+
+1. Introduction
+
+Welcome to Property Go. These Terms and Conditions ("Terms") govern your use of our website, mobile application, and other services (collectively, the "Services"). By accessing or using our Services, you agree to comply with and be bound by these Terms. If you do not agree with these Terms, please do not use our Services.
+
+2. User Accounts
+
+2.1 Account Creation: To use certain features of our Services, you must create an account. You agree to provide accurate, complete, and up-to-date information during the registration process and to update such information to keep it accurate, complete, and up-to-date.
+
+2.2 Account Security: You are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account. You agree to notify us immediately of any unauthorized use of your account or any other breach of security.
+
+2.3 Password Management: If you forget your password, you must contact our administrators to request a password reset. You are responsible for ensuring that your new password is secure.
+
+3. Use of Services
+
+3.1 Permitted Use: You may use our Services only for lawful purposes and in accordance with these Terms. You agree not to use our Services in any way that could disable, overburden, or impair our servers or networks.
+
+3.2 Prohibited Activities: You agree not to engage in any activities that: (a) infringe on the intellectual property rights of others; (b) distribute malicious software or viruses; (c) engage in fraudulent activities or misrepresentations; (d) interfere with the functioning of our Services; or (e) use automated systems to access or interact with our Services.
+
+4. Property Listings
+
+4.1 Accuracy: We strive to provide accurate and up-to-date information about properties listed on our platform. However, we do not guarantee the accuracy, completeness, or reliability of any property information.
+
+4.2 Property Availability: Property availability is subject to change without notice. We are not responsible for any discrepancies between the information provided and the actual availability of properties.
+
+5. Appointments
+
+5.1 Scheduling: You can create an appointment by clicking on the calendar icon next to the property image. Once an appointment is scheduled, you will receive an email with the appointment details.
+
+5.2 Realtor Selection: If you encounter an error stating "Realtor Does Not Exist," it means that the selected realtor is either no longer employed or has retired. You must choose a different realtor for your appointment.
+
+6. Confidentiality
+
+6.1 Access Credentials: All access credentials, including usernames and passwords, are confidential. Unauthorized disclosure of these credentials will result in legal action.
+
+6.2 Data Protection: We are committed to protecting your personal information and handling it in accordance with our Privacy Policy.
+
+7. Termination
+
+7.1 Account Termination: We reserve the right to suspend or terminate your account if you violate these Terms or engage in any unlawful activities.
+
+7.2 Termination by User: You may terminate your account at any time by contacting us. Upon termination, you will no longer have access to our Services.
+
+8. Limitation of Liability
+
+8.1 Disclaimer of Warranties: Our Services are provided "as is" and "as available" without warranties of any kind. We disclaim all warranties, express or implied, including but not limited to implied warranties of merchantability and fitness for a particular purpose.
+
+8.2 Limitation of Liability: To the maximum extent permitted by law, we shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or in connection with your use of our Services.
+
+9. Indemnification
+
+You agree to indemnify, defend, and hold harmless Property Go, its affiliates, and their respective officers, directors, employees, and agents from and against any claims, liabilities, damages, losses, or expenses arising out of or in connection with your use of our Services or your violation of these Terms.
+
+10. Changes to Terms
+
+We reserve the right to modify these Terms at any time. Any changes will be effective immediately upon posting on our website. Your continued use of our Services following the posting of changes constitutes your acceptance of such changes.
+
+11. Governing Law
+
+These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which Property Go operates, without regard to its conflict of law principles.
+
+12. Contact Us
+
+If you have any questions or concerns about these Terms, please contact us at:
+
+Property Go
+Customer Support Department
+1234 Maple Avenue, Suite 890
+Real Estate City, RE 12345
+Email: support@propertygo.com
+Phone: 031 234 5678
+
+
+
+
+
+
+
+ 
+

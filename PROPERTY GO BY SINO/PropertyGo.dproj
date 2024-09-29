@@ -1,0 +1,165 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{AC366F13-DFBC-443A-857C-BD61DE32CD94}</ProjectGuid>
+			<ProjectVersion>12.0</ProjectVersion>
+			<MainSource>PropertyGo.dpr</MainSource>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_DependencyCheckOutputName>PropertyGo.exe</DCC_DependencyCheckOutputName>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
+			<DCC_Platform>x86</DCC_Platform>
+			<DCC_E>false</DCC_E>
+			<DCC_N>false</DCC_N>
+			<DCC_S>false</DCC_S>
+			<DCC_F>false</DCC_F>
+			<DCC_K>false</DCC_K>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="PropertyGo.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="uStart.pas">
+				<Form>frmStart</Form>
+			</DCCReference>
+			<DCCReference Include="Data Connection\uDM.pas">
+				<Form>DM</Form>
+				<DesignClass>TDataModule</DesignClass>
+			</DCCReference>
+			<DCCReference Include="OOP\uProperty.pas"/>
+			<DCCReference Include="OOP\uValidator.pas"/>
+			<DCCReference Include="uIOTable4.pas">
+				<Form>frmIOTable4</Form>
+			</DCCReference>
+			<DCCReference Include="uMain.pas">
+				<Form>frmSQL_Main</Form>
+			</DCCReference>
+			<DCCReference Include="uGlobal.pas"/>
+			<DCCReference Include="uSQLExplorer.pas">
+				<Form>frmSQLExplorer</Form>
+			</DCCReference>
+			<DCCReference Include="uIOAppointment.pas">
+				<Form>frmIOAppointment</Form>
+			</DCCReference>
+			<DCCReference Include="uIOTable2.pas">
+				<Form>frmIOTable2</Form>
+			</DCCReference>
+			<DCCReference Include="uIOTable3.pas">
+				<Form>frmIOTable3</Form>
+			</DCCReference>
+			<DCCReference Include="uIOTable1.pas">
+				<Form>frmIOTable1</Form>
+			</DCCReference>
+			<DCCReference Include="uClient.pas">
+				<Form>frmClient</Form>
+			</DCCReference>
+			<DCCReference Include="uAppointment_scheduler.pas">
+				<Form>frmAppointments</Form>
+			</DCCReference>
+			<DCCReference Include="uFindSelection.pas">
+				<Form>frmFindSelection</Form>
+			</DCCReference>
+			<DCCReference Include="uRealtor.pas">
+				<Form>frmAppointmentsView</Form>
+			</DCCReference>
+			<DCCReference Include="uCardPayment.pas">
+				<Form>frmCardPayment</Form>
+			</DCCReference>
+			<DCCReference Include="UCard.pas"/>
+			<DCCReference Include="uMessage.pas">
+				<Form>frmMessages</Form>
+			</DCCReference>
+			<DCCReference Include="uNotifications.pas">
+				<Form>frmNotifications</Form>
+			</DCCReference>
+			<DCCReference Include="uClient2.pas">
+				<Form>frmClientAppointments</Form>
+			</DCCReference>
+			<DCCReference Include="uHelp.pas">
+				<Form>frmHelp</Form>
+			</DCCReference>
+			<DCCReference Include="uPropData.pas">
+				<Form>frmPropData</Form>
+			</DCCReference>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">1</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">7177</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Source>
+						<Source Name="MainSource">PropertyGo.dpr</Source>
+					</Source>
+				</Delphi.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>
